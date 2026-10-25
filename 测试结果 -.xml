@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun duration="6" footerText="由 PyCharm 在 2026/10/25 08:08 生成" name="">
+    <count name="total" value="17"/>
+    <count name="passed" value="17"/>
+    <config configId="tests" name="">
+        <module name="AI"/>
+        <option name="ENV_FILES" value=""/>
+        <option name="INTERPRETER_OPTIONS" value=""/>
+        <option name="PARENT_ENVS" value="true"/>
+        <option name="SDK_HOME" value="D:/Python3.12/python.exe"/>
+        <option name="WORKING_DIRECTORY" value="D:/Hex备份/项目/AI"/>
+        <option name="IS_MODULE_SDK" value="true"/>
+        <option name="ADD_CONTENT_ROOTS" value="true"/>
+        <option name="ADD_SOURCE_ROOTS" value="true"/>
+        <option name="DEBUG_JUST_MY_CODE" value="false"/>
+        <option name="RUN_TOOL" value=""/>
+        <option name="_new_keywords" value="&quot;&quot;"/>
+        <option name="_new_parameters" value="&quot;&quot;"/>
+        <option name="_new_additionalArguments" value="&quot;&quot;"/>
+        <option name="_new_target" value="&quot;D:/Hex备份/项目/AI/dcms/test/test_dcms.py&quot;"/>
+        <option name="_new_targetType" value="&quot;PATH&quot;"/>
+        <method v="2"/>
+    </config>
+    <suite duration="6" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms" name="dcms" status="passed">
+        <suite duration="6" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test" name="test" status="passed">
+            <suite duration="6" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms" name="test_dcms" status="passed">
+                <test duration="0" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms.test_init_defaults" name="test_init_defaults" metainfo="test_init_defaults" status="passed">
+                    <output type="stdout">PASSED                        [  5%]
+</output>
+                </test>
+                <test duration="0" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms.test_init_custom_decay_dict" name="test_init_custom_decay_dict" metainfo="test_init_custom_decay_dict" status="passed">
+                    <output type="stdout">PASSED               [ 11%]
+</output>
+                </test>
+                <test duration="1" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms.test_chat_stream_and_history" name="test_chat_stream_and_history" metainfo="test_chat_stream_and_history" status="passed">
+                    <output type="stdout">PASSED              [ 17%]
+</output>
+                </test>
+                <test duration="1" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms.test_router_trigger_debounce" name="test_router_trigger_debounce" metainfo="test_router_trigger_debounce" status="passed">
+                    <output type="stdout">PASSED              [ 23%]
+</output>
+                </test>
+                <test duration="0" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms.test_force_route_trigger" name="test_force_route_trigger" metainfo="test_force_route_trigger" status="passed">
+                    <output type="stdout">PASSED                  [ 29%]
+</output>
+                </test>
+                <test duration="0" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms.test_dynamic_new_module" name="test_dynamic_new_module" metainfo="test_dynamic_new_module" status="passed">
+                    <output type="stdout">PASSED                   [ 35%]
+</output>
+                </test>
+                <test duration="0" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms.test_router_clean_markdown_json" name="test_router_clean_markdown_json" metainfo="test_router_clean_markdown_json" status="passed">
+                    <output type="stdout">PASSED           [ 41%]
+</output>
+                </test>
+                <test duration="0" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms.test_router_fallback_on_api_exception" name="test_router_fallback_on_api_exception" metainfo="test_router_fallback_on_api_exception" status="passed">
+                    <output type="stdout">PASSED     [ 47%]
+</output>
+                </test>
+                <test duration="2" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms.test_router_fallback_on_invalid_json" name="test_router_fallback_on_invalid_json" metainfo="test_router_fallback_on_invalid_json" status="passed">
+                    <output type="stdout">PASSED      [ 52%]
+</output>
+                </test>
+                <test duration="0" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms.test_router_fallback_on_pydantic_validation_error" name="test_router_fallback_on_pydantic_validation_error" metainfo="test_router_fallback_on_pydantic_validation_error" status="passed">
+                    <output type="stdout">PASSED [ 58%]
+</output>
+                </test>
+                <test duration="0" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms.test_natural_decay_uniform" name="test_natural_decay_uniform" metainfo="test_natural_decay_uniform" status="passed">
+                    <output type="stdout">PASSED                [ 64%]
+</output>
+                </test>
+                <test duration="0" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms.test_natural_decay_custom_dict" name="test_natural_decay_custom_dict" metainfo="test_natural_decay_custom_dict" status="passed">
+                    <output type="stdout">PASSED            [ 70%]
+</output>
+                </test>
+                <test duration="0" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms.test_natural_decay_min_threshold" name="test_natural_decay_min_threshold" metainfo="test_natural_decay_min_threshold" status="passed">
+                    <output type="stdout">PASSED          [ 76%]
+</output>
+                </test>
+                <test duration="0" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms.test_manual_set_weights" name="test_manual_set_weights" metainfo="test_manual_set_weights" status="passed">
+                    <output type="stdout">PASSED                   [ 82%]
+</output>
+                </test>
+                <test duration="0" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms.test_build_prompt_logic" name="test_build_prompt_logic" metainfo="test_build_prompt_logic" status="passed">
+                    <output type="stdout">PASSED                   [ 88%]
+</output>
+                </test>
+                <test duration="1" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms.test_main_model_exception_handling" name="test_main_model_exception_handling" metainfo="test_main_model_exception_handling" status="passed">
+                    <output type="stdout">PASSED        [ 94%]
+</output>
+                </test>
+                <test duration="1" locationUrl="python&lt;D:\Hex备份\项目\AI&gt;://dcms.test.test_dcms.test_state_persistence" name="test_state_persistence" metainfo="test_state_persistence" status="passed">
+                    <output type="stdout">PASSED                    [100%]
+</output>
+                </test>
+            </suite>
+        </suite>
+    </suite>
+</testrun>
